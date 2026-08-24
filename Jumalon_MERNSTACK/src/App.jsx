@@ -1,4 +1,5 @@
 import Studentcomponent from "./components/studentcomponent.jsx";
+import Subjectcomponent from "./components/subjectcomponent.jsx";
 function App() {
   return(
     <div>
@@ -15,7 +16,13 @@ function App() {
       section="BSIT 3-1" 
       studentnumber="202406276" 
       course="Information Technology" />
+
+      <Subjectcomponent 
+      subjectname="DCIT26" 
+      subjectcode={26} 
+      />
     </div>
+
     
   );
 }
