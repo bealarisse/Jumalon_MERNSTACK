@@ -6,8 +6,8 @@ function Navbar() {
         <style>
        
        {`
-       
-         .nav-container  {
+        
+         .nav-container, .brand  {
         color: #2563eb;
         text-decoration: none;
         font-weight: 600;
@@ -17,10 +17,11 @@ function Navbar() {
        
        `}
        </style>
-      <div className="nav-container">
+      <div>
         <Link className="brand" to="/">
           Home
         </Link>
+
 
         
       </div>

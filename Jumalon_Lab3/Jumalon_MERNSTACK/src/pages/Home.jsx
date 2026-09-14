@@ -31,6 +31,7 @@ function Home() {
         <br></br>
         View Students
         </Link>
+        
       </section>
     </main>
   );

@@ -6,6 +6,7 @@ function Student({ student }) {
      
 
       <div>
+        
         <h2>{student.name}</h2>
         <p>
           <strong>Student Number:</strong> {student.studentnumber}
@@ -28,7 +29,13 @@ function Student({ student }) {
           View Full Details
         </Link>
       </div>
+      <div>
+  
+        
+</div>
+      
     </article>
+    
   );
 }
 
