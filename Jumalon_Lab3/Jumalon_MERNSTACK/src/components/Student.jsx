@@ -17,23 +17,10 @@ function Student({ student }) {
         <p>
           <strong>Section:</strong> {student.section}
         </p>
-        <style>
-           {`
-         .button-link  {
-        color: #2563eb;
-        text-decoration: none;
-        font-weight: 600;
-      }  `}
-      </style>
         <Link className="button-link" to={`/students/${student.id}`}>
           View Full Details
         </Link>
       </div>
-      <div>
-  
-        
-</div>
-      
     </article>
     
   );

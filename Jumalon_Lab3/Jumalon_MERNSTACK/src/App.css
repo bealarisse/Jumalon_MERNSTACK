@@ -1,3 +1,58 @@
-#page-container {
+body {
+  background-color: lightblue;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
 
-};
+main {
+  width: 80%;
+  margin: 20px auto;
+}
+
+section {
+  background-color: white;
+  border: 1px solid #999;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.directory-sections {
+  display: flex;
+  gap: 15px;
+}
+
+.directory-sections section {
+  width: 50%;
+}
+
+.student-card {
+  border: 1px solid #999;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.button-link,
+.back-link,
+.brand {
+  color: #2563eb;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid #999;
+  padding: 10px;
+}
+
+input,
+button {
+  font-size: 16px;
+  margin: 3px 0;
+  padding: 5px;
+}
+
+button {
+  background-color: white;
+  border: 1px solid #999;
+}
