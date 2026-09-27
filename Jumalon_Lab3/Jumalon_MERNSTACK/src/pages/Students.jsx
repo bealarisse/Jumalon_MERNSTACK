@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
 import Student from "../components/Student";
-import students from "../data/students.json";
 
 
-function Students() {
+function Students({ students }) {
   return (
     <main>
 

@@ -1,0 +1,4 @@
+[
+  { "id": 1, "name": "Maria Santos", "age": 35, "subject": "Web Development", "department": "Information Technology", "email": "maria.santos@school.edu" },
+  { "id": 2, "name": "Jose Reyes", "age": 40, "subject": "Database Systems", "department": "Information Technology", "email": "jose.reyes@school.edu" }
+]

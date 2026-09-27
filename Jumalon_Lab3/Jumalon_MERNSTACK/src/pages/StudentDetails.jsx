@@ -1,7 +1,6 @@
 import { Link, useParams } from "react-router-dom";
-import students from "../data/students.json";
 
-function StudentDetails() {
+function StudentDetails({ students }) {
   const { id } = useParams();
   const student = students.find((item) => item.id === parseInt(id, 10));
 
